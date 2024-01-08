@@ -1,0 +1,326 @@
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+.container{
+	width : 100%;
+	margin : 0 auto;
+}
+.row{
+	display : flex;
+	flex-wrap : wrap;
+	padding : 25px;
+}
+ul li{
+	list-style-type : none;
+}
+
+.col-1{ width: 8.33%;padding : 0 15px;}
+.col-2{ width: 16.66%;padding : 0 15px;}
+.col-3{ width: 25%;padding : 0 15px;}
+.col-4{ width: 33.33%;padding : 0 15px;}
+.col-5{ width: 41.66%;padding : 0 15px;}
+.col-6{ width: 50%;padding : 0 15px;}
+.col-7{ width: 58.33%;padding : 0 15px;}
+.col-8{ width: 66.66%;padding : 0 15px;}
+.col-9{ width: 75%;padding : 0 15px;}
+.col-10{ width: 83.33%;padding : 0 15px;}
+.col-11{ width: 91.66%;padding : 0 15px;}
+.col-12{ width: 100%;padding : 0 15px;}
+
+
+.header-title{
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight : 350px;
+	padding-left : 100px;
+}
+.header-title span{
+	color : #d84141;
+}
+.header-menu{
+	padding  : 10px;
+}
+.header-menu .nav-list ul{
+	display : flex;
+	gap : 40px;
+	justify-content : center;
+	align-items : center;
+	
+	}
+.header-menu .nav-list ul li a{
+	color : #7f7f90;
+	text-decoration : none;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size : 18px;
+	}
+	
+.header-menu .nav-list ul li a:hover{
+	text-decoration : underline;
+	color : #d84141;
+	transition : 0.3s;
+}
+.header-btn a{
+	text-decoration : none;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size : 14px;
+	color : #fff;
+	background-color : #d84141;
+	border-radius : 50px;
+	/*margin-left : 40px;*/
+	padding : 8px 20px;
+}
+.header-btn {
+	padding : 10px;
+}
+
+/*Middle page*/
+.center{
+	background-color : #eeeeee;
+	padding-left : 100px;
+}
+.center-section{
+	padding : 150px 0;
+}
+.content-large{
+	line-height : 90px;
+	font-family: 'Amatic SC', sans-serif;
+	font-size : 35px;
+	font-weight : 700px;
+}
+.content-small{
+	color : #4f4f5a;
+	font-weight : 400px;
+	font-family: 'Roboto', sans-serif;
+	padding-top : 30px;
+}
+.hero-image{
+	text-align : center;
+}
+.center-btn a{
+	text-decoration : none;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size : 14px;
+	color : #fff;
+	background-color : #ce1212;
+	border-radius : 50px;
+	/*margin-left : 40px;*/
+	padding : 12px 36px;
+	letter-spacing : 2px;
+	box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+.button-video{
+	display : flex;
+	gap : 30px;
+	padding-top : 30px;
+}	
+/*Learn more about us*/
+.about_us{
+	padding : 40px;
+	text-align : center;
+}
+.about{
+	font-size : 13px;
+	color : #7f7f90;
+	letter-spacing : 1px;
+	font-weight : 400;
+}
+.learn{
+	font-family: 'Amatic SC', sans-serif;
+	letter-spacing : 2px;
+	font-size : 20px;
+	padding-top : 20px;
+}
+.learn span{
+	color : #ce1212;
+}
+.about_content .about_list{
+	padding-top : 20px;
+	line-height : 35px;
+	padding-bottom : 20px;
+}
+.about_content .about_list ul li i{
+	color : #ce1212;
+	padding-right : 5px;
+}
+.about_content .about_list ul li {
+	color : #212529;
+}
+.about_content .about_image2{
+	padding-top : 24px;
+}
+.about_content {
+	padding-bottom : 50px;
+}
+/*card_section*/
+
+
+/*card1*/
+.card_section{
+	background-color : #eeeeee;
+}
+.card_section .card_1{
+	height: 100%;
+	width : 100%;
+	padding : 50px;
+	background-color : #ce1212;
+	color : white;
+	line-height : 20px;
+	text-align : justify;
+}
+.card_section .card_1 .card1_title{
+	padding-bottom : 30px;
+	line-height : 30px;
+}
+.card_section .card1_content{
+	padding-bottom : 30px;
+}
+.card_1 .card1_button a{
+
+	text-decoration : none;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size : 14px;
+	color : #fff;
+	background-color : rgba(255, 255, 255, 0.3);
+	border-radius : 50px;
+	/*margin-left : 40px;*/
+	padding : 12px 36px;
+	letter-spacing : 2px;
+	margin-left : 30px;
+}
+.card_1 .card1_button a:hover{
+	background-color : white;
+	color : #ce1212;
+}
+/*card 2*/
+.card_2 {
+	width : 80%;
+	height : 80%;
+	background-color : white;
+	margin : 50px;
+	text-align : center;
+	padding-top : 30px;
+}
+.card_2 .card2_icon {
+	
+	width : 50px;
+	height : 50px;
+	background-color : rgba(206, 18, 18, 0.1);
+	color : #ce1212;
+	border-radius : 50px;
+	font-size : 20px;
+	display : flex;
+	align-items : center;
+	justify-content : center;
+	margin-left : 100px;
+}
+.card_2 .card2_title {
+	font-family: 'Inter', sans-serif;
+	padding-top : 20px;
+	padding-bottom : 20px;
+}
+.card_2 .card2_content {
+	padding : 20px;
+	line-height : 20px;
+}
+.card_2:hover {
+	transition:0.3s;
+}
+/*background image container*/
+
+/* Contact Section Styles */
+/* Contact Section Styles */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.contact-section p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.contact-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.contact-section form input,
+.contact-section form textarea,
+.contact-section form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contact-section form input:focus,
+.contact-section form textarea:focus {
+    outline: none;
+    border-color: #48b0f7;
+    box-shadow: 0 0 5px rgba(72, 176, 247, 0.5);
+}
+
+
+.contact-section form button {
+	font-family: 'Gabarito', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size : 14px;
+    background-color: #ce1212; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section form button:hover {
+    background-color: #ad0f0f;
+}
+
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
